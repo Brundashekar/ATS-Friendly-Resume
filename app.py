@@ -8,9 +8,9 @@ import os
 
 # This function creates an instance of a generative model called 'gemini-pro'. It then uses this model to generate content based on the input provided and returns the generated response text.
 
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCSrKmDtvN9ofT6LNR6s6Aq5h18yTLURjs'
+os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API_KEY'
 load_dotenv() ## load all our environment variables
-GOOGLE_API_KEY = 'AIzaSyCSrKmDtvN9ofT6LNR6s6Aq5h18yTLURjs'
+GOOGLE_API_KEY = 'GOOGLE_API_KEY'
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_repsonse(input):
